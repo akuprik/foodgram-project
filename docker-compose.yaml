@@ -13,6 +13,7 @@ services:
     # адрес файла, где хранятся переменные окружения
     #env_file:
      # - ./.env
+
   # описание контейнера web
   web:
     image: akuprik/foodgram
