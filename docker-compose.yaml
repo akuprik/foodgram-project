@@ -3,7 +3,7 @@ version: '3.3'
 # имя директории для хранения данных
 volumes:
   postgres_data:
-
+  sqlitedb:
 services:
   # описание контейнера db
   #db:
@@ -21,6 +21,7 @@ services:
     volumes:
       - ./static:/foodgram/static
       - ./media:/foodgram/media
+      - sqlitedb: /foodgram/db.sqlite3
     #depends_on:
     #  - db
     #env_file:
