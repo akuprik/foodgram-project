@@ -1,4 +1,4 @@
-name: YAMDB_FINAL
+name: FOODGRAM
 
 on: [push]
 
