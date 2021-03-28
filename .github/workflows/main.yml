@@ -11,7 +11,7 @@ jobs:
       with:
         python-version: '3.8'
     - run: pip install -r requirements.txt
-    #- run: pytest
+    - run: pytest
     #- run: flake8 . --exclude tests
   build:
     runs-on: ubuntu-latest
