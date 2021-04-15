@@ -42,4 +42,3 @@ class User(AbstractUser):
         ordering = ('username',)
         verbose_name = 'User'
         verbose_name_plural = 'Users'
-
