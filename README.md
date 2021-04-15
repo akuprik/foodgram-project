@@ -1,7 +1,6 @@
 # foodgram-project
-foodgram-project
-Дипломный проект Yandex -курса  Python back-end developer
-в стадии разработки 
+Дипломный проект Yandex -курса  Python back-end developer<br>
+в стадии разработки<br>
 текущее состояние на http://food.kuprik.ru
 
 
@@ -12,7 +11,6 @@ foodgram-project
 
 ## Используемые технологии
 
-* [Image YAMDB](https://hub.docker.com/repository/docker/ilyukevich/yamdb) - образ для первого контейнера YAMDB
 * [Image POSTGRESQL](https://hub.docker.com/_/postgres) - образ для второго контейнера POSTGRESQL
 * [Docker](https://docs.docker.com/engine/install/ubuntu/) - официальная документация Docker
 * [Dockerfile](https://docs.docker.com/engine/reference/builder/) - официальная документация Dockerfile
