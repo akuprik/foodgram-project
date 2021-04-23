@@ -21,7 +21,7 @@ services:
     restart: always
     volumes:
       - sqlitedb:/foodgram/db
-      - ./static:/foodgram/static
+      - ./static_:/foodgram/static_
       - ./media:/foodgram/media
     #depends_on:
     #  - db
@@ -31,7 +31,7 @@ services:
     image: nginx:1.19.6
     restart: always
     volumes:
-      - ./static:/foodgram/static
+      - ./static_:/foodgram/static_
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
       - ./media:/foodgram/media
     ports:
